@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Book</title>
+    <link rel="stylesheet" href="index.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+    />
+  </head>
+  <body class="container">
+    <header>
+      <i class="fa-solid fa-book-open"></i>
+      <h3>My<span>Book</span>List</h3>
+    </header>
+    <form action="submit">
+      <div>
+        <label for="">Title</label>
+        <input id="title" type="text" />
+      </div>
+      <div>
+        <label for="">Author</label>
+        <input id="author" type="text" />
+      </div>
+      <div>
+        <label for="">ISBN#</label>
+        <input id="isbn" type="text" />
+      </div>
+      <button type="submit">Submit</button>
+    </form>
+    <table>
+      <thead>
+        <tr>
+          <th>Title</th>
+          <th>Author</th>
+          <th>ISBN#</th>
+          <th>Delete</th>
+        </tr>
+      </thead>
+      <tbody></tbody>
+    </table>
+
+    <script src="index.js"></script>
+  </body>
+</html>
